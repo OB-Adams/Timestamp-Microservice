@@ -1,0 +1,29 @@
+{
+  "name": "timestamp-microservice",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OB-Adams/timestamp-microservice.git"
+  },
+  "homepage": "https://github.com/OB-Adams/timestamp-microservice",
+  "author": "Ebenezer Obiri Adams",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
