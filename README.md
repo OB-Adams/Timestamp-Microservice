@@ -1,6 +1,6 @@
 # Timestamp Microservice
 
-A simple Microservice(API) built with Node.js and Express that provides information about dates and times. The API can handle both numeric timestamps and date strings, offering responses in both Unix time (milliseconds) and UTC format. It also returns the current time when no date is provided.
+A simple Microservice(API) built with Node.js and Express that provides information about dates and times. The Timestamp Microservice can handle both numeric timestamps and date strings, offering responses in both Unix time (milliseconds) and UTC format. It also returns the current time when no date is provided.
 
 ## Features
 
@@ -60,7 +60,7 @@ The server will start on the port defined in the .env file or default to port 30
 
 ### Example Requests and Responses
 
-#### Request with a Numeric Timestamp
+### Request with a Numeric Timestamp
 
 Request:
 GET /api/1691664000000
@@ -71,7 +71,7 @@ Response:
 "utc": "Sat, 10 Aug 2024 00:00:00 GMT"
 }
 
-#### Request with a Date String
+### Request with a Date String
 
 Request:
 GET /api/2024-08-10
@@ -82,7 +82,7 @@ Response:
 "utc": "Sat, 10 Aug 2024 00:00:00 GMT"
 }
 
-#### Request without Date Parameter (Current Time)
+### Request without Date Parameter (Current Time)
 
 Request:
 GET /api/
@@ -93,7 +93,7 @@ Response:
 "utc": "Sat, 10 Aug 2024 00:00:00 GMT" // Current UTC date
 }
 
-#### Request with Invalid Date
+### Request with Invalid Date
 
 Request:
 GET /api/invalid-date
@@ -124,4 +124,4 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
