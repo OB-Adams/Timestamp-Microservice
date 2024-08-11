@@ -29,7 +29,6 @@ const handler = (req, res) => {
 
   let parsedDate;
   if (!isNaN(date)) {
-    // Handling numeric timestamps
     const unixTimeStamp = date.length === 13 ? Number(date) : Number(date) * 1000;
     parsedDate = new Date(unixTimeStamp);
   } else {
