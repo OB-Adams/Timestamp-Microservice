@@ -1,6 +1,6 @@
 # Timestamp Microservice
 
-A simple Microservice(API) built with Node.js and Express that provides information about dates and times. The Timestamp Microservice can handle both numeric timestamps and date strings, offering responses in both Unix time (milliseconds) and UTC format. It also returns the current time when no date is provided.
+A Timestamp Microservice(API) built with Node.js and Express that provides information about dates and times. The Timestamp Microservice can handle both numeric timestamps and date strings, offering responses in both Unix time (milliseconds) and UTC format. It also returns the current time when no date is provided.
 
 ## Features
 
