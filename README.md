@@ -25,13 +25,15 @@ A Timestamp Microservice(API) built with Node.js and Express that provides infor
 - Node.js: Ensure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
 ### Clone the Repository
-
+```
 git clone https://github.com/OB-Adams/Timestamp-microservice.git
 cd date-api
+```
 
 ### Install Dependencies
-
+```
 npm install
+```
 
 ### Environment Variables
 
@@ -43,7 +45,9 @@ PORT=3000
 ### Start the Server
 
 Run the server using Node.js:
+```
 npm start
+```
 
 The server will start on the port defined in the .env file or default to port 3000.
 
